@@ -1,6 +1,5 @@
 import ProjectCard from "@/components/ProjectCard";
 import { projects } from "../myProjects";
-import Link from "next/link";
 
 export default function Projects() {
     return (
