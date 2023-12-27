@@ -22,7 +22,7 @@ export default function ProjectCard({ title, description, technologies, linkedin
             </div>
             {linkedin.length > 0 && (
                 <div className="mt-4">
-                    <p className="text-sm font-semibold">Membres de l'équipe:</p>
+                    <p className="text-sm font-semibold">Membres de l&apos;équipe:</p>
                     <ul className="list-disc list-inside">
                         {linkedin.map((member, index) => (
                             <li key={index}>
